@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changin css Variables</title>
+    <link rel = "stylesheet" href = "./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>changing css variables using js</h1>
+
+        <div class="controls">
+            <div>
+                Shift
+                <input id = "shift-input" type = "range" min = "0" max = "100" value = "0">
+            </div>
+            <div>
+                Blur
+                <input id = "blur-input" type = "range" min = "0" max = "10" value = "0">
+            </div>
+            <div>
+                Background Color
+                <input type = "color" id = "background-color-input">
+            </div>
+        </div>
+
+        <div class="image-outer-container">
+            <div class="image-inner-container">
+                <img alt = "image" src = "./assets/image.jpg">
+            </div>
+        </div>
+    </div>
+    <script src = "./script.js"></script>
+</body>
+</html>
